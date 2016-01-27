@@ -27,29 +27,27 @@ This script would take the following file:
 ```
 Record 1 of 3
 AUTHOR       Dirr, Michael.
-TITLE        Viburnums : flowering shrubs for every season / Michael A. Dirr ;
-               illustrations by Bonnie L. Dirr.
+TITLE        Viburnums : flowering shrubs for every season
 PUBLISHER    Portland, Or. : Timber Press, ©2007.
 
 Record 2 of 3
 AUTHOR       Cushnie, John.
-TITLE        Shrubs for the garden / John Cushnie ; photography by Marianne 
-               Majerus.
+TITLE        Shrubs for the garden 
 PUBLISHER    London : Kyle Cathie, ©2004.
 
 Record 3 of 3
-AUTHOR       Dickens, Charles, 1812-1870.
-TITLE        David Copperfield / Charles Dickens ; with an introduction by 
-               Paul Bailey.
+AUTHOR       Doe, John.
+TITLE        A book with a very, very, very long title that spills onto
+               multiple lines
 PUBLISHER    Oxford ; New York : Oxford University Press, 1999.
 ```
 
 It would output the following content, which has tabs between each field:
 
 ```
-Viburnums : flowering shrubs for every season / Michael A. Dirr ; illustrations by Bonnie L. Dirr.	Dirr, Michael.	Portland, Or. : Timber Press, ©2007.
-Shrubs for the garden / John Cushnie ; photography by Marianne Majerus.	Cushnie, John.	London : Kyle Cathie, ©2004.
-David Copperfield / Charles Dickens ; with an introduction by Paul Bailey.	Dickens, Charles, 1812-1870.	Oxford ; New York : Oxford University Press, 1999.
+Viburnums : flowering shrubs for every season	Dirr, Michael.	Portland, Or. : Timber Press, ©2007.
+Shrubs for the garden	Cushnie, John.	London : Kyle Cathie, ©2004.
+A book with a very, very, very long title that spills onto multiple lines	Doe, John.	Oxford ; New York : Oxford University Press, 1999.
 ```
 
 This file can then be imported into Excel with tabs as delimiters.
